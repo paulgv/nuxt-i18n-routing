@@ -33,7 +33,7 @@ See the code in [`~/store/i18n/`](store/i18n/).
 
 A simple plugins is used to inialize [vue-i18n](https://github.com/kazupon/vue-i18n) which provides all translation features in the app.
 
-See the code in [`~/plugins/i18n.js`](plugins/i18n.js).
+See the code in [`~/plugins/vue-i18n.js`](plugins/vue-i18n.js).
 
 ### Middleware
 
