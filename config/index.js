@@ -11,7 +11,7 @@ const LOCALES = [
   },
   {
     code: 'fr',
-    iso: 'fr-CA',
+    iso: 'fr-FR',
     name: 'Français'
   }
 ]

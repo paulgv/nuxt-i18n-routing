@@ -10,7 +10,7 @@
         {{ $t('labels.see_categories') }}
       </nuxt-link>
       <nuxt-link :to="getLocalizedRoute({ name: 'about' })" class="button--green">
-        About
+        {{ $t('labels.about') }}
       </nuxt-link>
       <LangSwitcher />
     </header>

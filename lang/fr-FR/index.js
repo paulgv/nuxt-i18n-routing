@@ -1,6 +1,7 @@
 module.exports = {
   labels: {
     home: 'Accueil',
+    about: 'À propos',
     back: 'Retour',
     select_category: 'Selectionnez une catégorie',
     showing_category: 'Catégorie actuelle: ',
