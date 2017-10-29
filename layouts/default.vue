@@ -91,7 +91,7 @@ header {
 }
 
 header a {
-  margin: 10px 0;
+  margin: 10px;
 }
 
 section {
