@@ -10,7 +10,7 @@ It's not fully tested and you should expect that this might not work for your sp
 
 ### Configuration
 
-In `~/config/index.js`, we define the i18n configuration:
+In [`~/config/index.js`](config.index.js), we define the i18n configuration:
 
 - `LOCALES` is an array of languages available in the app
 - `DEFAULT_LOCALE` is the app's main language, routes for this language won't have a lang prefix
@@ -21,25 +21,25 @@ In `~/config/index.js`, we define the i18n configuration:
 In order to "localize" the routes, a generator function overrides all the routes that Nuxt generates by reading the `pages/` directory contents.
 The generator is imported in `nuxt.config.js` and used in the `extendRoutes` method.
 
-See the code in `~/utils/router.js`.
+See the code in [`~/utils/router.js`](utils/router.js).
 
 ### Store
 
 A small Vuex store module is used to persist user's locale preference accross pages.
 
-See the code in `~/store/i18n/`.
+See the code in [`~/store/i18n/`](store/i18n/).
 
 ### Plugin
 
 A simple plugins is used to inialize [vue-i18n](https://github.com/kazupon/vue-i18n) which provides all translation features in the app.
 
-See the code in `~/plugins/i18n.js`.
+See the code in [`~/plugins/i18n.js`](plugins/i18n.js).
 
 ### Middleware
 
 A middleware, heavily inspired by [Nuxt's i18n example](https://nuxtjs.org/examples/i18n), handles language switching using the language from the URL.
 
-See the code in `~/middleware/i18n.js`.
+See the code in [`~/middleware/i18n.js`](middleware/i18n.js).
 
 ### Mixin
 
@@ -62,21 +62,23 @@ In Vue components, display links as follows:
 </nuxt-link>
 ```
 
+See the code in [`~/plugins/global-mixin.js`](plugins/global-mixin.js).
+
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ yarn
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn dev
 
 # build for production and launch server
-$ npm run build
-$ npm start
+$ yarn build
+$ yarn start
 
 # generate static project
-$ npm run generate
+$ yarn generate
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
