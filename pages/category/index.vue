@@ -19,3 +19,9 @@
 <script>
 export default {}
 </script>
+
+<style scoped>
+a {
+  margin: 10px;
+}
+</style>
