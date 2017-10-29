@@ -10,7 +10,7 @@ It's not fully tested and you should expect that this might not work for your sp
 
 ### Configuration
 
-In [`~/config/index.js`](config.index.js), we define the i18n configuration:
+In [`~/config/index.js`](config/index.js), we define the i18n configuration:
 
 - `LOCALES` is an array of languages available in the app
 - `DEFAULT_LOCALE` is the app's main language, routes for this language won't have a lang prefix
