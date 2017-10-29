@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-i18n-routing",
+  "version": "1.0.0",
+  "description": "Localized routing with Nuxt.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nuxt": "1.0.0-rc11",
+    "vue-i18n": "^7.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
