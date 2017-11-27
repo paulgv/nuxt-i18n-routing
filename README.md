@@ -2,6 +2,9 @@
 
 > Localized routing with Nuxt.js
 
+## nuxt-i18n module
+
+Check out [nuxt-i18n](https://github.com/paulgv/nuxt-i18n) module which is based on the work you'll find here.
 
 ## Info
 
